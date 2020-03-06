@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ing_Software
+namespace Ing_Software.Controles
 {
-    public partial class Form1 : Form
+    public partial class AsideBar : UserControl
     {
-        public Form1()
+        public AsideBar()
         {
             InitializeComponent();
         }
