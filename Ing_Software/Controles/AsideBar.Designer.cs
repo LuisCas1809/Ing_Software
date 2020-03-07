@@ -82,6 +82,7 @@
             // 
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel1.Location = new System.Drawing.Point(41, 229);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(243, 46);
@@ -102,6 +103,7 @@
             // 
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(233, 46);
@@ -124,6 +126,7 @@
             // 
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.pictureBox4);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Location = new System.Drawing.Point(3, 55);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(233, 46);
@@ -146,6 +149,7 @@
             // 
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.pictureBox6);
+            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel5.Location = new System.Drawing.Point(3, 107);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(233, 46);
@@ -168,6 +172,7 @@
             // 
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox5);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(3, 159);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(233, 46);
@@ -190,6 +195,7 @@
             // 
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.pictureBox7);
+            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.Location = new System.Drawing.Point(41, 588);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(243, 46);
@@ -211,7 +217,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox7.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox7.Image = global::Ing_Software.Properties.Resources.descargar__3_;
             this.pictureBox7.Location = new System.Drawing.Point(0, 0);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(50, 46);
@@ -222,7 +228,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox3.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox3.Image = global::Ing_Software.Properties.Resources.libro_blanco_png_2;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 46);
@@ -233,7 +239,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox4.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox4.Image = global::Ing_Software.Properties.Resources.ENGRANAJES_BLANCOS;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 46);
@@ -243,8 +249,9 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox6.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox6.Image = global::Ing_Software.Properties.Resources._45332;
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(50, 46);
@@ -255,7 +262,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox5.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox5.Image = global::Ing_Software.Properties.Resources.descargar__2_;
             this.pictureBox5.Location = new System.Drawing.Point(0, 0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(50, 46);
@@ -266,7 +273,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox2.Image = global::Ing_Software.Properties.Resources._004_como;
+            this.pictureBox2.Image = global::Ing_Software.Properties.Resources.person_white_png_3;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 46);

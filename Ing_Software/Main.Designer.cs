@@ -28,50 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.asideBar1 = new Ing_Software.Controles.AsideBar();
-            this.panel1.SuspendLayout();
+            this.pnVentanas = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnVentanas
             // 
-            this.panel1.Controls.Add(this.asideBar1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 650);
-            this.panel1.TabIndex = 0;
-            // 
-            // asideBar1
-            // 
-            this.asideBar1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.asideBar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.asideBar1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.asideBar1.Location = new System.Drawing.Point(0, 0);
-            this.asideBar1.Name = "asideBar1";
-            this.asideBar1.Size = new System.Drawing.Size(300, 650);
-            this.asideBar1.TabIndex = 0;
+            this.pnVentanas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnVentanas.Location = new System.Drawing.Point(0, 0);
+            this.pnVentanas.Name = "pnVentanas";
+            this.pnVentanas.Size = new System.Drawing.Size(900, 650);
+            this.pnVentanas.TabIndex = 0;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 650);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnVentanas);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private Controles.AsideBar asideBar1;
+        private System.Windows.Forms.Panel pnVentanas;
     }
 }
 

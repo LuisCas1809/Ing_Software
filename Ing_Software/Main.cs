@@ -18,6 +18,7 @@ namespace Ing_Software
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            AbrirFormulario(new Login());
         }
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -33,12 +34,25 @@ namespace Ing_Software
         protected override void OnPaintBackground(PaintEventArgs e)
         {
             using (LinearGradientBrush brush = new LinearGradientBrush(this.ClientRectangle,
-                                                                       Color.FromArgb(56, 255, 189),
-                                                                       Color.FromArgb(245, 255, 56),
+                                                                       Color.FromArgb(52, 235, 164),
+                                                                       Color.FromArgb(52, 203, 237),
                                                                        0F))
             {
                 e.Graphics.FillRectangle(brush, this.ClientRectangle);
             }
+        }
+
+        public void AbrirFormulario(Form ventana)
+        {
+            if (pnVentanas.Controls.Count > 0)
+                pnVentanas.Controls.RemoveAt(0);
+
+            ventana.TopLevel = false;
+            ventana.Dock = DockStyle.Fill;
+
+            pnVentanas.Controls.Add(ventana);
+            pnVentanas.Tag = ventana;
+            ventana.Show();
         }
     }
 }

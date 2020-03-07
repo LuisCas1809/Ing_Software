@@ -58,6 +58,12 @@
     <Compile Include="Controles\AsideBar.Designer.cs">
       <DependentUpon>AsideBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controles\AsideBar.resx">
       <DependentUpon>AsideBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -103,6 +112,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\003-usuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-white-png-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENGRANAJES-BLANCOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro-blanco-png-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descargar %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario-registrados.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
