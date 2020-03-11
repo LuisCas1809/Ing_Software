@@ -9,24 +9,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ing_Software
+namespace Ing_Software.Administrador
 {
-    public partial class Login : Form
+    public partial class Form1 : Form
     {
-        public Login()
+        public Form1()
         {
             InitializeComponent();
         }
-
         protected override void OnPaintBackground(PaintEventArgs e)
         {
             using (LinearGradientBrush brush = new LinearGradientBrush(this.ClientRectangle,
-                                                                       Color.FromArgb(217, 231, 245),
-                                                                       Color.FromArgb(222, 235, 247),
+                                                                       Color.FromArgb(52, 235, 164),
+                                                                       Color.FromArgb(52, 203, 237),
                                                                        0F))
             {
                 e.Graphics.FillRectangle(brush, this.ClientRectangle);
             }
         }
+
     }
 }
